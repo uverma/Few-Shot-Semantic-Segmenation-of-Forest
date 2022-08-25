@@ -5,7 +5,7 @@ This work envisages forest identification as a few-shot semantic segmentation ta
 # Dataset
 - Train dataset: DeepGlobe challenge
 - Test dataset: LandCover AI dataset
-Please contact the author or fill the [Google Form](https://forms.gle/1dpdjGmzrXgxCZf2A) to get access to the datasets/pre-trained models. 
+Please contact the author of the respective datasets to get access to the datasets/pre-trained models. 
 
 # Dataset Pre-Processing
 The train dataset contains 803 images of 2,448 x 2,448 resolution. A mask is provided for each image which contains seven different classes: Urban, Agriculture, Rangeland, Forest, Water, Barren and also an Unknown class.  In this work, the images are tiled to create sub-images of 612 x 612 pixels. This tiling results in 12,800 sub-images. Moreover, the following classes are merged for 1-way task: Urban, Agriculture, Water, Rangeland, Barren and Unknown. 
