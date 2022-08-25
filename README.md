@@ -5,6 +5,7 @@ This work envisages forest identification as a few-shot semantic segmentation ta
 # Dataset
 - Train dataset: DeepGlobe challenge
 - Test dataset: LandCover AI dataset
+
 Please contact the author of the respective datasets to get access to the datasets/pre-trained models. 
 
 # Dataset Pre-Processing
